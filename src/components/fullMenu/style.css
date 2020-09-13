@@ -1,0 +1,20 @@
+.fm-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: .25rem;
+}
+
+.fm-content {
+    width: 100%;
+    min-height: calc(100vh - 57px);
+    padding: .5rem;
+    background-color: #f8f9fa;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .fm-content {
+        padding: 1rem;
+    }
+}
